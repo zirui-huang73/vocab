@@ -1,0 +1,562 @@
+{
+  "car-exterior.antenna": {
+    "file": "car-exterior.antenna.webp",
+    "credit": "Shixart1985 · CC BY 2.0 · Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Rain_on_a_car_roof_with_an_antenna_in_focus_during_a_cloudy_day.jpg"
+  },
+  "car-exterior.bumper": {
+    "file": "car-exterior.bumper.webp",
+    "credit": "Yeti.bigfoot · CC BY 3.0 · Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:FORD_Taunus_17M_P2(TL)_deLuxe_Two_door_1958_Bumper.jpg"
+  },
+  "car-exterior.convertible": {
+    "file": "car-exterior.convertible.webp",
+    "credit": "Rundvald · CC BY-SA 4.0 · Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Peugeot-204-cabriolet-de-1968-rouge-China-1135-villegiature-arriere.jpg"
+  },
+  "car-exterior.door-handle": {
+    "file": "car-exterior.door-handle.webp",
+    "credit": "WikiGrower1 · CC BY 4.0 · Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Car_door_handle.jpg"
+  },
+  "car-exterior.fender": {
+    "file": "car-exterior.fender.webp",
+    "credit": "Greg Gjerdingen from Willmar, USA · CC BY 2.0 · Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:36_Chrysler_Imperial_Airflow_(9681301293)_left_front_fender_(cropped).jpg"
+  },
+  "car-exterior.flat-tire": {
+    "file": "car-exterior.flat-tire.webp",
+    "credit": "Solasly · CC BY-SA 4.0 · Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:A_broken_down_truck,_A_cart_pusher,_A_tricycle_and_a_bus_in_Lagos.jpg"
+  },
+  "car-exterior.gas-cap": {
+    "file": "car-exterior.gas-cap.webp",
+    "credit": "Bindydad123 · CC BY-SA 4.0 · Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:2015_Perodua_Axia_1.0_Standard_G_(90).jpg"
+  },
+  "car-exterior.grille": {
+    "file": "car-exterior.grille.webp",
+    "credit": "Dietmar Rabich · CC BY-SA 4.0 · Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Nottuln,_Oldtimermuseum,_Sunbeam_Rapier_Series_II_--_2021_--_4523.jpg"
+  },
+  "car-exterior.hatchback": {
+    "file": "car-exterior.hatchback.webp",
+    "credit": "Cutlass · CC0 · Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:2025_Suzuki_Swift_hybrid_in_Flame_Orange_Metallic,_rear_left,_06-06-2025.jpg"
+  },
+  "car-exterior.headlight": {
+    "file": "car-exterior.headlight.webp",
+    "credit": "Rob Brewer from Bristol, England · CC BY-SA 2.0 · Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Scooter_headlights.jpg"
+  },
+  "car-exterior.hood": {
+    "file": "car-exterior.hood.webp",
+    "credit": "Liftarn · CC BY-SA 3.0 · Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Sonett-mk2-flipfront.jpg"
+  },
+  "car-exterior.hubcap": {
+    "file": "car-exterior.hubcap.webp",
+    "credit": "Infrogmation of New Orleans · CC BY-SA 3.0 · Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:1963_Rambler_Orleans_Wheel.jpg"
+  },
+  "car-exterior.license-plate": {
+    "file": "car-exterior.license-plate.webp",
+    "credit": "Zcarstvnz · CC BY-SA 4.0 · Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:California_2018_License_Plate.jpg"
+  },
+  "car-exterior.lug-nut": {
+    "file": "car-exterior.lug-nut.webp",
+    "credit": "https://www.flickr.com/photos/juanster/ · CC BY 2.0 · Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Lug-nuts.jpg"
+  },
+  "car-exterior.minivan": {
+    "file": "car-exterior.minivan.webp",
+    "credit": "Kevauto · CC BY-SA 4.0 · Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:2019_Chrysler_Pacifica_Touring_L,_front_7.4.19.jpg"
+  },
+  "car-exterior.mud-flap": {
+    "file": "car-exterior.mud-flap.webp",
+    "credit": "TTTNIS · Public domain · Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Mazda_Bongo_Brawny_Truck_Double_Cab_rear.jpg"
+  },
+  "car-exterior.muffler": {
+    "file": "car-exterior.muffler.webp",
+    "credit": "Luboš Jelínek · CC BY 4.0 · Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Oldrich-Jelinek-catalytic-silencer-1964.jpg"
+  },
+  "car-exterior.pickup-truck": {
+    "file": "car-exterior.pickup-truck.webp",
+    "credit": "IFCAR · Public domain · Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Ford_F-150_crew_cab_--_05-28-2011.jpg"
+  },
+  "car-exterior.roof-rack": {
+    "file": "car-exterior.roof-rack.webp",
+    "credit": "CZmarlin — Christopher Ziemnowicz, releases all rights but a · Public domain · Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:1966_Ambassador_990_wagon_aztp.jpg"
+  },
+  "car-exterior.sedan": {
+    "file": "car-exterior.sedan.webp",
+    "credit": "© M 93 · CC BY-SA 3.0 de · Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Toyota_Camry_2.5_Hybrid_Ascent_Sport_(IX)_%E2%80%93_f_02012026.jpg"
+  },
+  "car-exterior.side-mirror": {
+    "file": "car-exterior.side-mirror.webp",
+    "credit": "Petar Milošević · CC BY-SA 4.0 · Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Wing_mirror.jpg"
+  },
+  "car-exterior.spare-tire": {
+    "file": "car-exterior.spare-tire.webp",
+    "credit": "Frenkieb from Netherlands · CC BY 2.0 · Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Flat_tire_edited_size.jpg"
+  },
+  "car-exterior.spoiler": {
+    "file": "car-exterior.spoiler.webp",
+    "credit": "CZmarlin — Christopher Ziemnowicz, releases all rights but a · Public domain · Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Chrysler_Crossfire_fastback_blue_rear.jpg"
+  },
+  "car-exterior.station-wagon": {
+    "file": "car-exterior.station-wagon.webp",
+    "credit": "M 93 · CC BY-SA 3.0 · Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Opel_Astra_Caravan_1.9_CDTI_rear.JPG"
+  },
+  "car-exterior.sunroof": {
+    "file": "car-exterior.sunroof.webp",
+    "credit": "Imapar Ltda · CC BY-SA 3.0 · Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:H900.jpg"
+  },
+  "car-exterior.suv": {
+    "file": "car-exterior.suv.webp",
+    "credit": "IFCAR · Public domain · Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:97-01_Jeep_Cherokee.jpg"
+  },
+  "car-exterior.taillight": {
+    "file": "car-exterior.taillight.webp",
+    "credit": "Alex Holyoake stairhopper · CC0 · Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Macro_of_modern_tail_light_(Unsplash).jpg"
+  },
+  "car-exterior.tailpipe": {
+    "file": "car-exterior.tailpipe.webp",
+    "credit": "Tokumeigakarinoaoshima · CC BY-SA 4.0 · Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:The_exhaust_silencer_of_Audi_TTS_(8S).JPG"
+  },
+  "car-exterior.tire": {
+    "file": "car-exterior.tire.webp",
+    "credit": "Anselm Schüler · CC BY-SA 4.0 · Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Large_tyre.jpg"
+  },
+  "car-exterior.trailer-hitch": {
+    "file": "car-exterior.trailer-hitch.webp",
+    "credit": "Erik Larsen · Public domain · Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Kombi_anh%C3%A6ngertr%C3%A6k_med_stik.JPG"
+  },
+  "car-exterior.trunk": {
+    "file": "car-exterior.trunk.webp",
+    "credit": "CZmarlin — Christopher Ziemnowicz, releases all rights but a · Public domain · Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:1965_Rambler_Classic_660_4-d_blue-white_VA-t.jpg"
+  },
+  "car-exterior.wheel": {
+    "file": "car-exterior.wheel.webp",
+    "credit": "Ruben de Rijcke · CC BY-SA 3.0 · Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Alloy_wheel_mercury.jpg"
+  },
+  "car-exterior.windshield": {
+    "file": "car-exterior.windshield.webp",
+    "credit": "Sofar 2 at English Wikipedia · Public domain · Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Panoramic-windshield.JPG"
+  },
+  "car-exterior.windshield-wiper": {
+    "file": "car-exterior.windshield-wiper.webp",
+    "credit": "Igelball · CC BY-SA 3.0 · Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Heckscheibenwischer_kl.jpg"
+  },
+  "fruit.apple": {
+    "file": "fruit.apple.webp",
+    "credit": "fir0002 flagstaffotos [at] gmail.com Canon 20D + Sigma 150mm · GFDL 1.2 · Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Pink_lady_and_cross_section.jpg"
+  },
+  "fruit.apricot": {
+    "file": "fruit.apricot.webp",
+    "credit": "Fir0002 · GFDL 1.2 · Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Apricot_and_cross_section.jpg"
+  },
+  "fruit.avocado": {
+    "file": "fruit.avocado.webp",
+    "credit": "B.navez · CC BY-SA 3.0 · Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Persea_americana_fruit_2.JPG"
+  },
+  "fruit.banana": {
+    "file": "fruit.banana.webp",
+    "credit": "TimothyPilgrim · CC BY-SA 3.0 · Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Bananavarieties.jpg"
+  },
+  "fruit.blackberry": {
+    "file": "fruit.blackberry.webp",
+    "credit": "Ragesoss · CC BY-SA 3.0 · Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Ripe,_ripening,_and_green_blackberries.jpg"
+  },
+  "fruit.blueberry": {
+    "file": "fruit.blueberry.webp",
+    "credit": "The original Uploader was Oven Fresh at English Wikipedia · Public domain · Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Blueberries.jpg"
+  },
+  "fruit.bunch": {
+    "file": "fruit.bunch.webp",
+    "credit": "Augustus Binu : flickr · CC BY-SA 3.0 · Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Bananas_white_background_DS.jpg"
+  },
+  "fruit.cantaloupe": {
+    "file": "fruit.cantaloupe.webp",
+    "credit": "Atomicbre at English Wikipedia · CC BY 3.0 · Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Cantaloupe_cut_and_whole.jpg"
+  },
+  "fruit.cherry": {
+    "file": "fruit.cherry.webp",
+    "credit": "spurekar · CC BY 2.0 · Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Cherry_season_(48216568227).jpg"
+  },
+  "fruit.coconut": {
+    "file": "fruit.coconut.webp",
+    "credit": "Ivar Leidus · CC BY-SA 4.0 · Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Coconuts_-_single_and_cracked_open.jpg"
+  },
+  "fruit.core": {
+    "file": "fruit.core.webp",
+    "credit": "Unknown · Copyrighted free use · Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Apple_core.jpg"
+  },
+  "fruit.cranberry": {
+    "file": "fruit.cranberry.webp",
+    "credit": "Ayotte, Gilles, 1948- · CC BY-SA 4.0 · Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Vaccinium_macrocarpon_15-p.bot-vacci.macro-11.jpg"
+  },
+  "fruit.dragon-fruit": {
+    "file": "fruit.dragon-fruit.webp",
+    "credit": "SMasters · CC BY-SA 3.0 · Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Pitaya_cross_section_ed2.jpg"
+  },
+  "fruit.fig": {
+    "file": "fruit.fig.webp",
+    "credit": "Ανώνυμος Βικιπαιδιστής · CC BY 3.0 · Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Ficus_carica_fruits_-_%CF%8E%CF%81%CE%B9%CE%BC%CE%B1_%CF%83%CF%8D%CE%BA%CE%B1.jpg"
+  },
+  "fruit.grape": {
+    "file": "fruit.grape.webp",
+    "credit": "Vyacheslav Argenberg · CC BY 4.0 · Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Grapes,_Rostov-on-Don,_Russia.jpg"
+  },
+  "fruit.grapefruit": {
+    "file": "fruit.grapefruit.webp",
+    "credit": "Ivar Leidus · CC BY-SA 4.0 · Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Grapefruits_-_whole-halved-segments.jpg"
+  },
+  "fruit.guava": {
+    "file": "fruit.guava.webp",
+    "credit": "Ivar Leidus · CC BY-SA 4.0 · Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Guava_pink_fruit.jpg"
+  },
+  "fruit.honeydew": {
+    "file": "fruit.honeydew.webp",
+    "credit": "Yotoen · Public domain · Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Honeydew.jpg"
+  },
+  "fruit.kiwi": {
+    "file": "fruit.kiwi.webp",
+    "credit": "Luc Viatour · CC BY-SA 2.5 · Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Kiwi_(Actinidia_chinensis)_1_Luc_Viatour.jpg"
+  },
+  "fruit.lemon": {
+    "file": "fruit.lemon.webp",
+    "credit": "Elena Chochkova · CC BY-SA 4.0 · Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:P1030323.JPG"
+  },
+  "fruit.lime": {
+    "file": "fruit.lime.webp",
+    "credit": "Dinesh Valke from Thane, India · CC BY-SA 2.0 · Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Citrus_%C3%97_aurantiifolia_(Christm.)_Swingle_(51906868474).jpg"
+  },
+  "fruit.lychee": {
+    "file": "fruit.lychee.webp",
+    "credit": "B.navez · CC BY-SA 3.0 · Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Litchi_chinensis_fruits.JPG"
+  },
+  "fruit.mango": {
+    "file": "fruit.mango.webp",
+    "credit": "Ivar Leidus · CC BY-SA 4.0 · Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Mangos_-_single_and_halved.jpg"
+  },
+  "fruit.nectarine": {
+    "file": "fruit.nectarine.webp",
+    "credit": "travel oriented · CC BY-SA 2.0 · Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Nectarines_1.jpg"
+  },
+  "fruit.orange": {
+    "file": "fruit.orange.webp",
+    "credit": "Ivar Leidus · CC BY-SA 4.0 · Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Oranges_-_whole-halved-segment.jpg"
+  },
+  "fruit.papaya": {
+    "file": "fruit.papaya.webp",
+    "credit": "Emilian Robert Vicol from Com. Balanesti, Romania · CC BY 2.0 · Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Papaya-Slices_53293-480x360_(4791934404).jpg"
+  },
+  "fruit.passion-fruit": {
+    "file": "fruit.passion-fruit.webp",
+    "credit": "Azreey · CC BY-SA 4.0 · Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Passionfruit_(whole_and_half).jpg"
+  },
+  "fruit.peach": {
+    "file": "fruit.peach.webp",
+    "credit": "Evan-Amos · CC0 · Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:White-Peaches-Bunch.jpg"
+  },
+  "fruit.pear": {
+    "file": "fruit.pear.webp",
+    "credit": "Keith Weller · Public domain · Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Pears.jpg"
+  },
+  "fruit.peel": {
+    "file": "fruit.peel.webp",
+    "credit": "Dvortygirl · CC BY-SA 3.0 · Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Orange_zest_and_peel.jpg"
+  },
+  "fruit.persimmon": {
+    "file": "fruit.persimmon.webp",
+    "credit": "Frank Schulenburg · CC BY-SA 4.0 · Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Fuyu_persimmon_fruits,_one_cut_open.jpg"
+  },
+  "fruit.pineapple": {
+    "file": "fruit.pineapple.webp",
+    "credit": "Suniltg at Malayalam Wikipedia · CC BY 3.0 · Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:%E0%B4%95%E0%B5%88%E0%B4%A4%E0%B4%9A%E0%B5%8D%E0%B4%9A%E0%B4%95%E0%B5%8D%E0%B4%95.jpg"
+  },
+  "fruit.pit": {
+    "file": "fruit.pit.webp",
+    "credit": "Sarang · Public domain · Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Drupe_fruit_diagram.svg"
+  },
+  "fruit.plum": {
+    "file": "fruit.plum.webp",
+    "credit": "Ivar Leidus · CC BY-SA 4.0 · Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Plums_African_Rose_-_whole,_halved_and_slice.jpg"
+  },
+  "fruit.pomegranate": {
+    "file": "fruit.pomegranate.webp",
+    "credit": "Augustus Binu : flickr · CC BY-SA 3.0 · Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Pomegranate_Juice_(2019).jpg"
+  },
+  "fruit.prune": {
+    "file": "fruit.prune.webp",
+    "credit": "Emőke Dénes · CC BY-SA 4.0 · Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Rosales_-_Dried_Prunus_domestica_d.jpg"
+  },
+  "fruit.raisin": {
+    "file": "fruit.raisin.webp",
+    "credit": "Paweł Kuźniar (Jojo_1, Jojo) · CC BY-SA 3.0 · Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Raisins_01.jpg"
+  },
+  "fruit.raspberry": {
+    "file": "fruit.raspberry.webp",
+    "credit": "Ivar Leidus · CC BY-SA 4.0 · Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Raspberries_(Rubus_idaeus).jpg"
+  },
+  "fruit.rind": {
+    "file": "fruit.rind.webp",
+    "credit": "Prathyush Thomas · GFDL 1.2 · Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Watermelon_cross_BNC.jpg"
+  },
+  "fruit.seed": {
+    "file": "fruit.seed.webp",
+    "credit": "Alexander Klepnev · CC BY 4.0 · Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:%D0%A0%D0%B0%D0%B7%D0%BD%D0%BE%D0%BE%D0%B1%D1%80%D0%B0%D0%B7%D0%B8%D0%B5_%D1%81%D0%B5%D0%BC%D1%8F%D0%BD.jpg"
+  },
+  "fruit.strawberry": {
+    "file": "fruit.strawberry.webp",
+    "credit": "Ivar Leidus · CC BY-SA 4.0 · Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Garden_strawberry_(Fragaria_%C3%97_ananassa)_single2.jpg"
+  },
+  "fruit.tangerine": {
+    "file": "fruit.tangerine.webp",
+    "credit": "Barfooz (Brent Ramerth) · CC BY-SA 3.0 · Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:TangerineFruit.jpg"
+  },
+  "fruit.watermelon": {
+    "file": "fruit.watermelon.webp",
+    "credit": "PattayaPatrol · CC BY-SA 4.0 · Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:DFC_6158_Sweet_summer_ready_to_slice_-_ripe_watermelons_on_display_one_halved_to_reveal_its_juicy_red_flesh.jpg"
+  },
+  "living-room.armchair": {
+    "file": "living-room.armchair.webp",
+    "credit": "Didouner · CC BY-SA 3.0 · Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Fauteuil_rond2.jpg"
+  },
+  "living-room.armrest": {
+    "file": "living-room.armrest.webp",
+    "credit": "Artyom Svetlov · CC BY 4.0 · Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Moscow_State_University_couch_2014-01_1389530021.JPG"
+  },
+  "living-room.bean-bag": {
+    "file": "living-room.bean-bag.webp",
+    "credit": "Daniela De Ponti · CC0 · Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Zanotta_Sacco_chair_with_houndstooth_upholstery.jpg"
+  },
+  "living-room.blinds": {
+    "file": "living-room.blinds.webp",
+    "credit": "Chuck Marean · CC BY 3.0 us · Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Some_window_blinds.JPG"
+  },
+  "living-room.bookcase": {
+    "file": "living-room.bookcase.webp",
+    "credit": "Moonik · CC BY-SA 3.0 · Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Interior_of_Biblioth%C3%A8que_Mazarine_003.JPG"
+  },
+  "living-room.carpet": {
+    "file": "living-room.carpet.webp",
+    "credit": "Adrian Pingstone (Arpingstone) · Public domain · Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Carpet_stretching_arp.jpg"
+  },
+  "living-room.ceiling-fan": {
+    "file": "living-room.ceiling-fan.webp",
+    "credit": "Antonio Mette · CC BY-SA 4.0 · Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Ventilatore_a_soffitto_(3).png"
+  },
+  "living-room.chandelier": {
+    "file": "living-room.chandelier.webp",
+    "credit": "Historic American Building Survey, National Park Service. Ja · Public domain · Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:State_Dining_Room_chandelier_1983.jpg"
+  },
+  "living-room.coaster": {
+    "file": "living-room.coaster.webp",
+    "credit": "Explicit · CC BY-SA 4.0 · Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:%EB%94%B8%EA%B8%B0_%EC%A5%AC%EC%8A%A4_@%EC%84%9C%EA%B5%90%EB%8F%99398.jpg"
+  },
+  "living-room.coffee-table": {
+    "file": "living-room.coffee-table.webp",
+    "credit": "Sridhar Rao · CC BY-SA 4.0 · Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Glass_coffee_table.jpg"
+  },
+  "living-room.couch": {
+    "file": "living-room.couch.webp",
+    "credit": "Ildar Sagdejev (Specious) · CC BY-SA 4.0 · Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:2009-05-16_Main_office_lobby_at_Hampton_Forest_Apartments.jpg"
+  },
+  "living-room.curtains": {
+    "file": "living-room.curtains.webp",
+    "credit": "Nieuw~commonswiki · CC BY-SA 3.0 · Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Gordijnen_aan_venster.JPG"
+  },
+  "living-room.cushion": {
+    "file": "living-room.cushion.webp",
+    "credit": "Markjones959 · CC BY-SA 4.0 · Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Throw_Pillows_(Scatter_Cushions).jpg"
+  },
+  "living-room.end-table": {
+    "file": "living-room.end-table.webp",
+    "credit": "Geo Lightspeed7 · CC BY-SA 4.0 · Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Stickley_Brothers_Furniture_Company_of_Grand_Rapids_end_table.jpg"
+  },
+  "living-room.fireplace": {
+    "file": "living-room.fireplace.webp",
+    "credit": "Klaus Mueller · CC BY-SA 2.0 de · Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Open_fireplace_with_icon.jpg"
+  },
+  "living-room.floor-lamp": {
+    "file": "living-room.floor-lamp.webp",
+    "credit": "No machine-readable author provided. Jiang assumed (based on · Public domain · Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Floor_lamp_(5906).JPG"
+  },
+  "living-room.footstool": {
+    "file": "living-room.footstool.webp",
+    "credit": "Unknown · CC BY-SA 3.0 · Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Ottoman_(furniture).jpg"
+  },
+  "living-room.futon": {
+    "file": "living-room.futon.webp",
+    "credit": "Thief12 · CC BY 2.5 · Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Futon-america.jpg"
+  },
+  "living-room.houseplant": {
+    "file": "living-room.houseplant.webp",
+    "credit": "Øyvind Holmstad · CC BY-SA 4.0 · Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Orkide_i_finstua_mot_vest.jpg"
+  },
+  "living-room.lampshade": {
+    "file": "living-room.lampshade.webp",
+    "credit": "Unknown · CC BY-SA 3.0 · Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Lampshades.jpg"
+  },
+  "living-room.loveseat": {
+    "file": "living-room.loveseat.webp",
+    "credit": "Jules Bouy · CC0 · Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:LOVE_SEAT_MET_sf68.70.13.jpg"
+  },
+  "living-room.magazine-rack": {
+    "file": "living-room.magazine-rack.webp",
+    "credit": "Austin Calhoon · CC BY-SA 3.0 · Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Kartell_Stoppino_Magazine_Rack_Austin_Calhoon_Photograph.jpg"
+  },
+  "living-room.mantel": {
+    "file": "living-room.mantel.webp",
+    "credit": "Tim Evanson · CC BY-SA 2.0 · Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Arlington_House_-_State_Dining_Room_-_fireplace_mantel_-_2011.jpg"
+  },
+  "living-room.ottoman": {
+    "file": "living-room.ottoman.webp",
+    "credit": "Wmpearl · CC0 · Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Herter_Brothers_Ottoman,_1881-2,_High_Museum.JPG"
+  },
+  "living-room.picture-frame": {
+    "file": "living-room.picture-frame.webp",
+    "credit": "Tim Evanson from Cleveland Heights, Ohio, USA · CC BY-SA 2.0 · Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Carved_frame_01_(27133614537).jpg"
+  },
+  "living-room.recliner": {
+    "file": "living-room.recliner.webp",
+    "credit": "User:PayPalHelper · Public domain · Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Black_Recliner.jpg"
+  },
+  "living-room.remote": {
+    "file": "living-room.remote.webp",
+    "credit": "Evan-Amos · Public domain · Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Nuon-N2000-Remote-Control.jpg"
+  },
+  "living-room.rocking-chair": {
+    "file": "living-room.rocking-chair.webp",
+    "credit": "Dominik Matus · CC BY-SA 3.0 · Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Moravsk%C3%A1_galerie_02_-_Thonet-Mundus_k%C5%99eslo.jpg"
+  },
+  "living-room.rug": {
+    "file": "living-room.rug.webp",
+    "credit": "Ryj · Public domain · Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Wollteppich_1.jpg"
+  },
+  "living-room.sectional": {
+    "file": "living-room.sectional.webp",
+    "credit": "Estate Lookup Interiors · CC0 · Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Spacious_Living_Room_Interior_Design_in_Kolkata_by_Estate_Lookup_Interiors.png"
+  },
+  "living-room.shelf": {
+    "file": "living-room.shelf.webp",
+    "credit": "Joanbanjo · CC BY-SA 3.0 · Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Atifells_de_cuina_andalusins,_Museu_Arqueol%C3%B2gic_Municipal_d%27Alcoi.JPG"
+  },
+  "living-room.throw-blanket": {
+    "file": "living-room.throw-blanket.webp",
+    "credit": "RandomKatze · CC0 · Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Thick_blankets_on_a_couch.jpg"
+  },
+  "living-room.throw-pillow": {
+    "file": "living-room.throw-pillow.webp",
+    "credit": "Ikhadeejatu · CC BY-SA 4.0 · Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Throw_pillows.jpg"
+  },
+  "living-room.tv-stand": {
+    "file": "living-room.tv-stand.webp",
+    "credit": "Chuckwagon700 · CC BY-SA 4.0 · Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Blue_meters.jpg"
+  },
+  "living-room.vase": {
+    "file": "living-room.vase.webp",
+    "credit": "Unknown · GFDL · Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Portland_Vase_V%26A.jpg"
+  }
+}
