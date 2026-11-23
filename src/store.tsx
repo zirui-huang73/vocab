@@ -1,11 +1,13 @@
 import { createContext, useCallback, useContext, useEffect, useState, type ReactNode } from 'react';
 import { schedule } from './lib/srs';
 import { updateStreak, type Streak } from './lib/session';
+import { setPreferredVoice } from './lib/speech';
 import type { Progress, Rating } from './types';
 
 export interface Settings {
   flashFront: 'image' | 'word';
   autoplay: boolean;
+  voice?: string;
 }
 
 export interface SavedData {
@@ -52,6 +54,8 @@ export function StoreProvider({ children }: { children: ReactNode }) {
   useEffect(() => {
     localStorage.setItem(KEY, JSON.stringify(data));
   }, [data]);
+
+  useEffect(() => setPreferredVoice(data.settings.voice), [data.settings.voice]);
 
   const rate = useCallback(
     (wordId: string, rating: Rating) =>

@@ -1,27 +1,78 @@
 export const speechSupported = typeof window !== 'undefined' && 'speechSynthesis' in window;
 
-const PREFERRED = ['Samantha', 'Google US English', 'Microsoft Aria', 'Microsoft Jenny', 'Alex'];
-let voice: SpeechSynthesisVoice | undefined;
+export type VoiceQuality = 'premium' | 'enhanced' | 'standard';
 
-function pickVoice() {
-  const us = speechSynthesis.getVoices().filter((v) => v.lang.replace('_', '-').toLowerCase() === 'en-us');
-  voice = PREFERRED.map((name) => us.find((v) => v.name.includes(name))).find(Boolean) ?? us.find((v) => v.localService) ?? us[0];
+// Apple's joke voices and the robotic Eloquence voices are listed as en-US but are unusable for learning.
+const NOVELTY = new Set(
+  'Albert,Bad News,Bahh,Bells,Boing,Bubbles,Cellos,Wobble,Fred,Good News,Jester,Junior,Kathy,Organ,Superstar,Ralph,Trinoids,Whisper,Zarvox,Eddy,Flo,Grandma,Grandpa,Reed,Rocko,Sandy,Shelley'.split(','),
+);
+const PREFERRED = ['Ava', 'Zoe', 'Evan', 'Nathan', 'Allison', 'Susan', 'Tom', 'Samantha', 'Alex', 'Google US English', 'Microsoft Aria', 'Microsoft Jenny'];
+
+export const baseName = (v: SpeechSynthesisVoice) => v.name.replace(/\s*\(.*\)$/, '');
+
+export function voiceQuality(v: SpeechSynthesisVoice): VoiceQuality {
+  const id = `${v.voiceURI} ${v.name}`;
+  if (/premium/i.test(id)) return 'premium';
+  if (/enhanced|natural/i.test(id)) return 'enhanced';
+  return 'standard';
+}
+
+const SCORE: Record<VoiceQuality, number> = { premium: 3, enhanced: 2, standard: 0 };
+const score = (v: SpeechSynthesisVoice) => SCORE[voiceQuality(v)] + (v.localService ? 0 : 1);
+const prefIndex = (v: SpeechSynthesisVoice) => {
+  const i = PREFERRED.findIndex((p) => v.name.startsWith(p));
+  return i < 0 ? PREFERRED.length : i;
+};
+
+export function rankVoices(voices: readonly SpeechSynthesisVoice[]): SpeechSynthesisVoice[] {
+  return voices
+    .filter((v) => v.lang.replace('_', '-').toLowerCase() === 'en-us' && !/eloquence/i.test(v.voiceURI) && !NOVELTY.has(baseName(v)))
+    .sort((a, b) => score(b) - score(a) || prefIndex(a) - prefIndex(b));
+}
+
+export function pickVoice(voices: readonly SpeechSynthesisVoice[], preferredURI: string | undefined): SpeechSynthesisVoice | undefined {
+  const ranked = rankVoices(voices);
+  return ranked.find((v) => v.voiceURI === preferredURI) ?? ranked[0];
+}
+
+let voices: SpeechSynthesisVoice[] = [];
+let preferredURI: string | undefined;
+const listeners = new Set<() => void>();
+
+function refresh() {
+  voices = rankVoices(speechSynthesis.getVoices());
+  listeners.forEach((l) => l());
 }
 
 if (speechSupported) {
-  pickVoice();
-  speechSynthesis.addEventListener('voiceschanged', pickVoice);
+  refresh();
+  speechSynthesis.addEventListener('voiceschanged', refresh);
 }
 
-export function hasUsVoice(): boolean {
-  return speechSupported && voice !== undefined;
+export function getVoices(): SpeechSynthesisVoice[] {
+  return voices;
+}
+
+export function subscribeVoices(listener: () => void): () => void {
+  listeners.add(listener);
+  return () => listeners.delete(listener);
+}
+
+export function setPreferredVoice(uri: string | undefined): void {
+  preferredURI = uri;
+}
+
+export function currentVoice(): SpeechSynthesisVoice | undefined {
+  if (speechSupported && !voices.length) voices = rankVoices(speechSynthesis.getVoices());
+  return pickVoice(voices, preferredURI);
 }
 
 export function speak(text: string, rate = 0.9): void {
   if (!speechSupported) return;
   speechSynthesis.cancel();
   const u = new SpeechSynthesisUtterance(text);
-  u.lang = 'en-US';
+  const voice = currentVoice();
+  u.lang = voice?.lang ?? 'en-US';
   u.rate = rate;
   if (voice) u.voice = voice;
   speechSynthesis.speak(u);

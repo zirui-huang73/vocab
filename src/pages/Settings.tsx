@@ -1,13 +1,18 @@
-import { useRef, useState } from 'react';
+import { useRef, useState, useSyncExternalStore } from 'react';
 import { allWords } from '../data';
 import { dayKey } from '../lib/session';
-import { hasUsVoice, speak } from '../lib/speech';
+import { baseName, currentVoice, getVoices, setPreferredVoice, speak, subscribeVoices, voiceQuality, type VoiceQuality } from '../lib/speech';
 import { parseSaved, useStore, type SavedData } from '../store';
 import { Header } from '../components/ui';
+
+const SAMPLE = 'Hello! This is how words will sound. Put the milk in the refrigerator.';
+const QUALITY_LABEL: Record<VoiceQuality, string> = { premium: '高级', enhanced: '增强', standard: '标准' };
 
 export default function Settings() {
   const store = useStore();
   const { settings, updateSettings, replaceAll } = store;
+  const voices = useSyncExternalStore(subscribeVoices, getVoices);
+  const voice = voices.length ? currentVoice() : undefined;
   const fileRef = useRef<HTMLInputElement>(null);
   const [message, setMessage] = useState('');
 
@@ -54,14 +59,40 @@ export default function Settings() {
           </button>
         </div>
 
+        <h2>发音</h2>
         <label className="toggle">
           <span>自动播放发音</span>
           <input type="checkbox" checked={settings.autoplay} onChange={(e) => updateSettings({ autoplay: e.target.checked })} />
         </label>
-        <button className="btn" onClick={() => speak('Hello! This is how words will sound.')}>
+        {voices.length > 0 && (
+          <select
+            className="select"
+            value={voice?.voiceURI}
+            onChange={(e) => {
+              updateSettings({ voice: e.target.value });
+              setPreferredVoice(e.target.value);
+              speak(SAMPLE);
+            }}
+          >
+            {voices.map((v) => (
+              <option key={v.voiceURI} value={v.voiceURI}>
+                {baseName(v)} · {QUALITY_LABEL[voiceQuality(v)]}
+              </option>
+            ))}
+          </select>
+        )}
+        <button className="btn" onClick={() => speak(SAMPLE)}>
           🔊 试听发音
         </button>
-        {!hasUsVoice() && <p className="muted">未检测到美式英语语音。iPhone 可在「设置 → 辅助功能 → 朗读内容 → 声音 → 英语」中下载。</p>}
+        {!voice ? (
+          <p className="muted">未检测到美式英语语音。iPhone 可在「设置 → 辅助功能 → 朗读内容 → 声音 → 英语」中下载。</p>
+        ) : (
+          !voices.some((v) => voiceQuality(v) !== 'standard') && (
+            <p className="muted">
+              想要更自然的声音：iPhone 打开「设置 → 辅助功能 → 朗读内容 → 声音 → 英语」，下载 Ava、Zoe 或 Evan 的高级（Premium）或增强（Enhanced）版本，然后彻底关闭本应用再打开，在上面选择新声音。
+            </p>
+          )
+        )}
 
         <h2>进度备份</h2>
         <p className="muted">
