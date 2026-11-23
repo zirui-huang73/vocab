@@ -461,19 +461,53 @@ a {
 }
 
 .speak-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   border: none;
   background: #eef3ff;
+  color: var(--primary);
   border-radius: 50%;
   width: 38px;
   height: 38px;
-  font-size: 18px;
+  padding: 0;
   flex-shrink: 0;
+  transition: transform 0.1s, background 0.15s;
+}
+
+.speak-btn:active {
+  transform: scale(0.9);
+  background: #dce6ff;
+}
+
+.speak-btn .speaker-icon {
+  width: 20px;
+  height: 20px;
 }
 
 .speak-btn.large {
   width: 64px;
   height: 64px;
-  font-size: 30px;
+}
+
+.speak-btn.large .speaker-icon {
+  width: 32px;
+  height: 32px;
+}
+
+.speaker-icon {
+  width: 18px;
+  height: 18px;
+  flex-shrink: 0;
+}
+
+.btn.with-icon {
+  flex-direction: row;
+  gap: 8px;
+}
+
+.btn.with-icon .speaker-icon {
+  color: var(--primary);
 }
 
 .actions {

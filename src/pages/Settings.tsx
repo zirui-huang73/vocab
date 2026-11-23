@@ -3,7 +3,7 @@ import { allWords } from '../data';
 import { dayKey } from '../lib/session';
 import { baseName, currentVoice, getVoices, setPreferredVoice, speak, subscribeVoices, voiceQuality, type VoiceQuality } from '../lib/speech';
 import { parseSaved, useStore, type SavedData } from '../store';
-import { Header } from '../components/ui';
+import { Header, SpeakerIcon } from '../components/ui';
 
 const SAMPLE = 'Hello! This is how words will sound. Put the milk in the refrigerator.';
 const QUALITY_LABEL: Record<VoiceQuality, string> = { premium: '高级', enhanced: '增强', standard: '标准' };
@@ -81,8 +81,9 @@ export default function Settings() {
             ))}
           </select>
         )}
-        <button className="btn" onClick={() => speak(SAMPLE)}>
-          🔊 试听发音
+        <button className="btn with-icon" onClick={() => speak(SAMPLE)}>
+          <SpeakerIcon />
+          试听发音
         </button>
         {!voice ? (
           <p className="muted">未检测到美式英语语音。iPhone 可在「设置 → 辅助功能 → 朗读内容 → 声音 → 英语」中下载。</p>

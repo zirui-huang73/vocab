@@ -20,6 +20,16 @@ export function Header({ title, back, right }: { title: ReactNode; back?: string
   );
 }
 
+export function SpeakerIcon() {
+  return (
+    <svg className="speaker-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+      <path d="M11 5 6.5 9H3.5v6h3l4.5 4z" fill="currentColor" />
+      <path d="M15.5 9a4.5 4.5 0 0 1 0 6" />
+      <path d="M18.5 6a8.5 8.5 0 0 1 0 12" />
+    </svg>
+  );
+}
+
 export function SpeakButton({ text, large }: { text: string; large?: boolean }) {
   if (!speechSupported) return null;
   return (
@@ -31,7 +41,7 @@ export function SpeakButton({ text, large }: { text: string; large?: boolean }) 
         speak(text);
       }}
     >
-      🔊
+      <SpeakerIcon />
     </button>
   );
 }
