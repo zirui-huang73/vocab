@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { formatInterval } from '../lib/session';
-import { speak } from '../lib/speech';
+import { AUTOPLAY_DELAY, speak } from '../lib/speech';
 import { schedule } from '../lib/srs';
 import { useStore } from '../store';
 import { Credit, Done, Header, ProgressBar, SpeakButton, WordDetails, WordImage } from '../components/ui';
@@ -23,8 +23,8 @@ export default function FlashSession({ words, title, back, onAgain }: SessionPro
   const wordFront = settings.flashFront === 'word';
 
   useEffect(() => {
-    if (!word || !settings.autoplay) return;
-    if (flipped !== wordFront) speak(word.en);
+    if (!word || !settings.autoplay || flipped === wordFront) return;
+    return speak(word.en, AUTOPLAY_DELAY);
   }, [word, flipped, wordFront, settings.autoplay]);
 
   const answer = (rating: Rating) => {

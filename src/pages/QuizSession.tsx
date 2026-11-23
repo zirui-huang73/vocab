@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from 'react';
 import { allWords, topicById } from '../data';
 import { buildQuestion, checkSpelling, spellingHint, type Question } from '../lib/quiz';
-import { speak } from '../lib/speech';
+import { AUTOPLAY_DELAY, speak } from '../lib/speech';
 import { useStore } from '../store';
 import { Done, Header, ProgressBar, SpeakButton, WordDetails, WordImage } from '../components/ui';
 import type { Progress, Word } from '../types';
@@ -21,8 +21,8 @@ export default function QuizSession({ words, title, back, onAgain }: SessionProp
   const inputRef = useRef<HTMLInputElement>(null);
 
   useEffect(() => {
-    if (question?.kind === 'audio2pic') speak(question.word.en);
     if (question?.kind === 'spell') inputRef.current?.focus();
+    if (question?.kind === 'audio2pic') return speak(question.word.en, AUTOPLAY_DELAY);
   }, [question]);
 
   if (!question) {
@@ -40,7 +40,7 @@ export default function QuizSession({ words, title, back, onAgain }: SessionProp
     setResult({ correct, chosen });
     rate(word.id, correct ? 'good' : 'again');
     if (!correct) setMissed((m) => new Set(m).add(word.id));
-    if (settings.autoplay && kind !== 'audio2pic') speak(word.en);
+    if (settings.autoplay && kind !== 'audio2pic') speak(word.en, AUTOPLAY_DELAY);
   };
 
   const next = () => {

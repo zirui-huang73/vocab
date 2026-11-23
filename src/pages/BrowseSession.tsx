@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { speak } from '../lib/speech';
+import { AUTOPLAY_DELAY, speak } from '../lib/speech';
 import { useStore } from '../store';
 import { Credit, Done, Header, ProgressBar, WordDetails, WordImage } from '../components/ui';
 import type { SessionProps } from './Study';
@@ -10,7 +10,7 @@ export default function BrowseSession({ words, title, back }: SessionProps) {
   const word = words[index];
 
   useEffect(() => {
-    if (word && settings.autoplay) speak(word.en);
+    if (word && settings.autoplay) return speak(word.en, AUTOPLAY_DELAY);
   }, [word, settings.autoplay]);
 
   if (!word) return <Done title="这个主题浏览完了" detail="去闪卡或测验里巩固一下吧" />;

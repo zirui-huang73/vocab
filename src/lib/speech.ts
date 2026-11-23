@@ -67,13 +67,32 @@ export function currentVoice(): SpeechSynthesisVoice | undefined {
   return pickVoice(voices, preferredURI);
 }
 
-export function speak(text: string, rate = 0.9): void {
-  if (!speechSupported) return;
-  speechSynthesis.cancel();
-  const u = new SpeechSynthesisUtterance(text);
-  const voice = currentVoice();
-  u.lang = voice?.lang ?? 'en-US';
-  u.rate = rate;
-  if (voice) u.voice = voice;
-  speechSynthesis.speak(u);
+const RATE = 0.75;
+// Delay for automatic playback so it doesn't start while the card is re-rendering (iOS clips the start).
+export const AUTOPLAY_DELAY = 300;
+// iOS clips or speeds up an utterance that starts right after cancel().
+const AFTER_CANCEL_GAP = 120;
+let timer: ReturnType<typeof setTimeout> | undefined;
+
+export function speak(text: string, delay = 0): () => void {
+  if (!speechSupported) return () => {};
+  clearTimeout(timer);
+  const busy = speechSynthesis.speaking || speechSynthesis.pending;
+  if (busy) speechSynthesis.cancel();
+  const run = () => {
+    const u = new SpeechSynthesisUtterance(text);
+    const voice = currentVoice();
+    u.lang = voice?.lang ?? 'en-US';
+    u.rate = RATE;
+    if (voice) u.voice = voice;
+    speechSynthesis.speak(u);
+  };
+  const wait = Math.max(delay, busy ? AFTER_CANCEL_GAP : 0);
+  if (!wait) {
+    run();
+    return () => {};
+  }
+  const t = setTimeout(run, wait);
+  timer = t;
+  return () => clearTimeout(t);
 }
