@@ -17,6 +17,7 @@ interface ImageEntry {
   file: string;
   credit: string;
   source: string;
+  ref?: string;
 }
 
 const ROOT = join(import.meta.dirname, '..');
@@ -31,6 +32,7 @@ const args = process.argv.slice(2);
 const force = args.includes('--force');
 const only = new Set(args.filter((a) => !a.startsWith('--')));
 
+const refOf = (w: RawWord) => (w.img ? `File:${w.img}` : (w.wiki ?? w.en));
 const slugify = (en: string) => en.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms));
 const chunk = <T>(a: T[], n: number) => Array.from({ length: Math.ceil(a.length / n) }, (_, i) => a.slice(i * n, i * n + n));
@@ -109,7 +111,9 @@ async function download(url: string, outFile: string): Promise<void> {
   const tmp = join(TMP_DIR, `dl-${process.pid}-${Math.random().toString(36).slice(2)}`);
   writeFileSync(tmp, Buffer.from(await (await get(url)).arrayBuffer()));
   try {
-    execFileSync('cwebp', ['-quiet', '-q', '70', '-resize', '400', '0', '-metadata', 'none', tmp, '-o', outFile]);
+    execFileSync('cwebp', ['-quiet', '-q', '70', '-resize', '400', '0', '-metadata', 'none', tmp, '-o', outFile], { stdio: 'ignore' });
+  } catch {
+    throw new Error(`cwebp could not convert ${url.split('.').pop()} image`);
   } finally {
     rmSync(tmp, { force: true });
   }
@@ -133,7 +137,7 @@ async function main() {
         if (images[id]) rmSync(join(OUT_DIR, images[id].file), { force: true });
         delete images[id];
         noImage.push(id);
-      } else if (force || !images[id] || !existsSync(join(OUT_DIR, images[id].file))) {
+      } else if (force || !images[id] || images[id].ref !== refOf(w) || !existsSync(join(OUT_DIR, images[id].file))) {
         todo.push({ id, word: w });
       }
     }
@@ -164,7 +168,7 @@ async function main() {
       const file = `${item.id}.webp`;
       try {
         await download(info.thumb, join(OUT_DIR, file));
-        images[item.id] = { file, credit: info.credit, source: info.source };
+        images[item.id] = { file, credit: info.credit, source: info.source, ref: refOf(item.word) };
         process.stdout.write(`\r${++done} downloaded`);
       } catch (e) {
         failed.push(`${item.id}  (${(e as Error).message})`);
