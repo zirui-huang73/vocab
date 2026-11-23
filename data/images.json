@@ -1547,6 +1547,12 @@
     "source": "https://commons.wikimedia.org/wiki/File:David_Julian_Kirchner_(cropped).jpg",
     "ref": "Raincoat"
   },
+  "clothing.shorts": {
+    "file": "clothing.shorts.webp",
+    "credit": "HisuwME Rewpaei 78M · CC BY-SA 4.0 · Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:HK_TKO_%E5%B0%87%E8%BB%8D%E6%BE%B3_Tseung_Kwan_O_PopCorn_mall_shop_Uniqlo_Clothing_store_July_2022_Px3_04.jpg",
+    "ref": "File:HK TKO 將軍澳 Tseung Kwan O PopCorn mall shop Uniqlo Clothing store July 2022 Px3 04.jpg"
+  },
   "clothing.skirt": {
     "file": "clothing.skirt.webp",
     "credit": "David Ring · CC0 · Wikimedia Commons",
@@ -1589,6 +1595,12 @@
     "source": "https://commons.wikimedia.org/wiki/File:Logo_HD_-1_sweat_shirt_W.jpg",
     "ref": "Sweatshirt"
   },
+  "clothing.swim-trunks": {
+    "file": "clothing.swim-trunks.webp",
+    "credit": "Frank Kovalchek from USA · CC BY 2.0 · Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Model_at_the_Spring_Fling_Fashion_Show_(IMG_4795a)_(5647728378).jpg",
+    "ref": "File:Model at the Spring Fling Fashion Show (IMG 4795a) (5647728378).jpg"
+  },
   "clothing.swimsuit": {
     "file": "clothing.swimsuit.webp",
     "credit": "Unknown authorUnknown author · Public domain · Wikimedia Commons",
@@ -1600,6 +1612,12 @@
     "credit": "Spreadshirt · CC BY 2.0 · Wikimedia Commons",
     "source": "https://commons.wikimedia.org/wiki/File:Woman_in_a_V-Neck_T-Shirt.jpg",
     "ref": "T-shirt"
+  },
+  "clothing.tank-top": {
+    "file": "clothing.tank-top.webp",
+    "credit": "Unknown authorUnknown author · CC BY 4.0 · Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Singlet_(AM_2010.1.22).jpg",
+    "ref": "File:Singlet (AM 2010.1.22).jpg"
   },
   "clothing.tie": {
     "file": "clothing.tie.webp",
@@ -1654,6 +1672,12 @@
     "credit": "Petty Officer 3rd Class Paul J. Perkins, U.S. Navy · Public domain · Wikimedia Commons",
     "source": "https://commons.wikimedia.org/wiki/File:USS_John_C._Stennis_baker.jpg",
     "ref": "Sheet pan"
+  },
+  "cookware.bottle-opener": {
+    "file": "cookware.bottle-opener.webp",
+    "credit": "Donald Trung Quoc Don (Chữ Hán: 徵國單) - Wikimedia Commons.(Wa · CC BY-SA 4.0 · Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Kultura_Philippine_flag_bottle_opener_(2019)_07.jpg",
+    "ref": "File:Kultura Philippine flag bottle opener (2019) 07.jpg"
   },
   "cookware.bowl": {
     "file": "cookware.bowl.webp",
@@ -1745,6 +1769,12 @@
     "source": "https://commons.wikimedia.org/wiki/File:Metric_Volume_Measuring_Vessels_Frontsides-In_use.jpg",
     "ref": "Measuring spoon"
   },
+  "cookware.mixing-bowl": {
+    "file": "cookware.mixing-bowl.webp",
+    "credit": "Cynthinee · CC BY 4.0 · Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Whipped_egg_whites.jpg",
+    "ref": "File:Whipped egg whites.jpg"
+  },
   "cookware.mug": {
     "file": "cookware.mug.webp",
     "credit": "Factorylad · Public domain · Wikimedia Commons",
@@ -1822,6 +1852,12 @@
     "credit": "Evan-Amos · Public domain · Wikimedia Commons",
     "source": "https://commons.wikimedia.org/wiki/File:Cast-Iron-Pan.jpg",
     "ref": "Cast-iron cookware"
+  },
+  "cookware.spatula": {
+    "file": "cookware.spatula.webp",
+    "credit": "FreeDigitalPhotos.net · CC BY-SA 3.0 · Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Fishslice1.jpg",
+    "ref": "File:Fishslice1.jpg"
   },
   "cookware.spoon": {
     "file": "cookware.spoon.webp",
@@ -2008,6 +2044,12 @@
     "credit": "Kjokkenutstyr · CC BY-SA 2.0 · Wikimedia Commons",
     "source": "https://commons.wikimedia.org/wiki/File:004-soymilk.jpg",
     "ref": "Soy milk"
+  },
+  "dairy-drinks.sparkling-water": {
+    "file": "dairy-drinks.sparkling-water.webp",
+    "credit": "Jabbyjobber · CC BY-SA 4.0 · Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:San_Pellegrino_bottle_for_sparkling_water_.jpg",
+    "ref": "File:San Pellegrino bottle for sparkling water .jpg"
   },
   "dairy-drinks.tea": {
     "file": "dairy-drinks.tea.webp",
@@ -2525,6 +2567,12 @@
     "source": "https://commons.wikimedia.org/wiki/File:Cashier_at_her_register.jpg",
     "ref": "Cashier"
   },
+  "grocery.checkout": {
+    "file": "grocery.checkout.webp",
+    "credit": "Nielsoncaetanosalmeron · CC BY 4.0 · Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Publix_checkout_aisle.jpg",
+    "ref": "File:Publix checkout aisle.jpg"
+  },
   "grocery.coupon": {
     "file": "grocery.coupon.webp",
     "credit": "Myra Siason · CC BY-SA 2.0 · Wikimedia Commons",
@@ -2609,6 +2657,12 @@
     "source": "https://commons.wikimedia.org/wiki/File:Self_checkout_using_NCR_Fastlane_machines.jpg",
     "ref": "Self-checkout"
   },
+  "grocery.shopping-basket": {
+    "file": "grocery.shopping-basket.webp",
+    "credit": "Geiyuemtamie · CC BY-SA 3.0 · Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:HK_Sai_Ying_Pun_%E9%98%BF%E4%BF%A1%E5%B1%8B_759_Store_plastic_shopping_baskets_Jan-2014.JPG",
+    "ref": "File:HK Sai Ying Pun 阿信屋 759 Store plastic shopping baskets Jan-2014.JPG"
+  },
   "grocery.shopping-cart": {
     "file": "grocery.shopping-cart.webp",
     "credit": "Tim Reckmann from Hamm, Deutschland · CC BY 2.0 · Wikimedia Commons",
@@ -2663,6 +2717,12 @@
     "source": "https://commons.wikimedia.org/wiki/File:Eye_drop.jpg",
     "ref": "Eye drop"
   },
+  "health.heating-pad": {
+    "file": "health.heating-pad.webp",
+    "credit": "Jen · CC BY-SA 3.0 · Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Electric_heating_pad.jpg",
+    "ref": "File:Electric heating pad.jpg"
+  },
   "health.ice-pack": {
     "file": "health.ice-pack.webp",
     "credit": "photo: Qurren (talk) Taken with Canon PowerShot G9 X · CC BY-SA 4.0 · Wikimedia Commons",
@@ -2693,6 +2753,12 @@
     "source": "https://commons.wikimedia.org/wiki/File:Printed_%E2%84%9E.jpg",
     "ref": "Medical prescription"
   },
+  "health.thermometer": {
+    "file": "health.thermometer.webp",
+    "credit": "Jacek Halicki · CC BY-SA 4.0 · Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:2023_Elektroniczny_termometr_lekarski.jpg",
+    "ref": "File:2023 Elektroniczny termometr lekarski.jpg"
+  },
   "health.vitamins": {
     "file": "health.vitamins.webp",
     "credit": "Mx. Granger · CC0 · Wikimedia Commons",
@@ -2710,6 +2776,12 @@
     "credit": "BruceBlaus · CC BY-SA 4.0 · Wikimedia Commons",
     "source": "https://commons.wikimedia.org/wiki/File:HEPA_Filter.png",
     "ref": "Air filter"
+  },
+  "home-systems.breaker-box": {
+    "file": "home-systems.breaker-box.webp",
+    "credit": "Gvolk · CC BY-SA 3.0 · Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Electrical_panel_and_subpanel_with_cover_removed_from_subpanel.jpg",
+    "ref": "File:Electrical panel and subpanel with cover removed from subpanel.jpg"
   },
   "home-systems.carbon-monoxide-detector": {
     "file": "home-systems.carbon-monoxide-detector.webp",
@@ -2831,6 +2903,12 @@
     "source": "https://commons.wikimedia.org/wiki/File:PECO_T8532-002.png",
     "ref": "Thermostat"
   },
+  "home-systems.vent": {
+    "file": "home-systems.vent.webp",
+    "credit": "w_lemay · CC BY-SA 2.0 · Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Hallway_Vent,_Paul_Schweiker_House_and_Studio,_Meacham_Road,_Schaumburg,_IL.jpg",
+    "ref": "File:Hallway Vent, Paul Schweiker House and Studio, Meacham Road, Schaumburg, IL.jpg"
+  },
   "home-systems.water-heater": {
     "file": "home-systems.water-heater.webp",
     "credit": "Slashme (talk) · CC BY-SA 3.0 · Wikimedia Commons",
@@ -2872,6 +2950,12 @@
     "credit": "Gianni Careddu · CC BY-SA 4.0 · Wikimedia Commons",
     "source": "https://commons.wikimedia.org/wiki/File:Ravenna,_basilica_di_San_Vitale_(036).jpg",
     "ref": "Ceiling"
+  },
+  "house.chimney": {
+    "file": "house.chimney.webp",
+    "credit": "Jon Sullivan · Public domain · Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Chimney_red.jpg",
+    "ref": "File:Chimney red.jpg"
   },
   "house.deck": {
     "file": "house.deck.webp",
@@ -3010,6 +3094,12 @@
     "credit": "BrianWright at English Wikipedia · CC BY-SA 3.0 · Wikimedia Commons",
     "source": "https://commons.wikimedia.org/wiki/File:Interior-Shutters.jpg",
     "ref": "Window shutter"
+  },
+  "house.siding": {
+    "file": "house.siding.webp",
+    "credit": "Cbaile19 · CC0 · Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Houses_with_vinyl_siding,_South_Side,_2022-08-17,_01.jpg",
+    "ref": "File:Houses with vinyl siding, South Side, 2022-08-17, 01.jpg"
   },
   "house.skylight": {
     "file": "house.skylight.webp",
@@ -3274,6 +3364,18 @@
     "credit": "M.Minderhoud · CC BY-SA 3.0 · Wikimedia Commons",
     "source": "https://commons.wikimedia.org/wiki/File:Stofferenblik.jpg",
     "ref": "Dustpan"
+  },
+  "laundry-cleaning.fabric-softener": {
+    "file": "laundry-cleaning.fabric-softener.webp",
+    "credit": "Alf van Beem · Public domain · Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Globus_Saarbr%C3%BCcken,_fabric_softener_pic1.JPG",
+    "ref": "File:Globus Saarbrücken, fabric softener pic1.JPG"
+  },
+  "laundry-cleaning.feather-duster": {
+    "file": "laundry-cleaning.feather-duster.webp",
+    "credit": "Bonolo Nikita Rankaga · CC0 · Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Feather_duster_broom.jpg",
+    "ref": "File:Feather duster broom.jpg"
   },
   "laundry-cleaning.iron": {
     "file": "laundry-cleaning.iron.webp",
@@ -3599,6 +3701,12 @@
     "source": "https://commons.wikimedia.org/wiki/File:Buffalo_wings-01.jpg",
     "ref": "Buffalo wing"
   },
+  "meat-seafood.clam": {
+    "file": "meat-seafood.clam.webp",
+    "credit": "Jon Sullivan · Public domain · Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Clams_muscles_shellfish_food.jpg",
+    "ref": "File:Clams muscles shellfish food.jpg"
+  },
   "meat-seafood.cod": {
     "file": "meat-seafood.cod.webp",
     "credit": "Sakurai Midori · CC BY-SA 3.0 · Wikimedia Commons",
@@ -3827,6 +3935,12 @@
     "source": "https://commons.wikimedia.org/wiki/File:Yellow_folder.JPG",
     "ref": "File folder"
   },
+  "office.highlighter": {
+    "file": "office.highlighter.webp",
+    "credit": "photosteve101 · CC BY 2.0 · Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Artful_highlighter_pens_drawing_on_paper.jpg",
+    "ref": "File:Artful highlighter pens drawing on paper.jpg"
+  },
   "office.hole-punch": {
     "file": "office.hole-punch.webp",
     "credit": "Flominator · CC BY-SA 3.0 · Wikimedia Commons",
@@ -3856,6 +3970,12 @@
     "credit": "L.Marie · CC BY 2.0 · Wikimedia Commons",
     "source": "https://commons.wikimedia.org/wiki/File:Notebooks.jpg",
     "ref": "Notebook"
+  },
+  "office.notepad": {
+    "file": "office.notepad.webp",
+    "credit": "Jose Camões Silva · CC BY 2.0 · Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Graph_paper_pad_and_examples_(16645340674).jpg",
+    "ref": "File:Graph paper pad and examples (16645340674).jpg"
   },
   "office.office-chair": {
     "file": "office.office-chair.webp",
@@ -4000,6 +4120,12 @@
     "credit": "Government of Poland · Public domain · Wikimedia Commons",
     "source": "https://commons.wikimedia.org/wiki/File:Driving_licence_Poland_2013_recto.png",
     "ref": "Driver's license"
+  },
+  "roads.exit": {
+    "file": "roads.exit.webp",
+    "credit": "Tony Webster from Minneapolis, Minnesota, United States · CC BY 2.0 · Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Hiawatha_Avenue_(Highway_55),_Minneapolis,_Minnesota_-_Exit_Sign_(43108405894).jpg",
+    "ref": "File:Hiawatha Avenue (Highway 55), Minneapolis, Minnesota - Exit Sign (43108405894).jpg"
   },
   "roads.fire-hydrant": {
     "file": "roads.fire-hydrant.webp",
@@ -4433,6 +4559,12 @@
     "source": "https://commons.wikimedia.org/wiki/File:Brennschere,_Brennzange.jpg",
     "ref": "Hair iron"
   },
+  "toiletries.hairbrush": {
+    "file": "toiletries.hairbrush.webp",
+    "credit": "en:User:Musical Linguist · CC BY-SA 3.0 · Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Hairbrush_flat.JPG",
+    "ref": "File:Hairbrush flat.JPG"
+  },
   "toiletries.hand-sanitizer": {
     "file": "toiletries.hand-sanitizer.webp",
     "credit": "Adoscam · CC BY-SA 4.0 · Wikimedia Commons",
@@ -4481,11 +4613,23 @@
     "source": "https://commons.wikimedia.org/wiki/File:Nail-clippers-variety.jpg",
     "ref": "Nail clipper"
   },
+  "toiletries.nail-file": {
+    "file": "toiletries.nail-file.webp",
+    "credit": "Wolfmankurd · Public domain · Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Nail_Buffer.jpg",
+    "ref": "File:Nail Buffer.jpg"
+  },
   "toiletries.nail-polish": {
     "file": "toiletries.nail-polish.webp",
     "credit": "Köttbulleledaren · CC BY-SA 4.0 · Wikimedia Commons",
     "source": "https://commons.wikimedia.org/wiki/File:Polished_purple_nails_with_nail_art_on.jpg",
     "ref": "Nail polish"
+  },
+  "toiletries.perfume": {
+    "file": "toiletries.perfume.webp",
+    "credit": "DDupard · CC BY-SA 4.0 · Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:A_Suma-perfume_by_Coty.1.jpg",
+    "ref": "File:A Suma-perfume by Coty.1.jpg"
   },
   "toiletries.razor": {
     "file": "toiletries.razor.webp",
@@ -4564,6 +4708,12 @@
     "credit": "Luigi Zanasi · CC BY-SA 2.0 ca · Wikimedia Commons",
     "source": "https://commons.wikimedia.org/wiki/File:Clamps.jpg",
     "ref": "Clamp (tool)"
+  },
+  "tools.crowbar": {
+    "file": "tools.crowbar.webp",
+    "credit": "Juha Kämäräinen · Public domain · Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Crowbar_without_haft.jpg",
+    "ref": "File:Crowbar without haft.jpg"
   },
   "tools.drill": {
     "file": "tools.drill.webp",
@@ -5068,6 +5218,12 @@
     "credit": "Apostoloff · GPL · Wikimedia Commons",
     "source": "https://commons.wikimedia.org/wiki/File:Rindenmulch016.JPG",
     "ref": "Mulch"
+  },
+  "yard.patio-umbrella": {
+    "file": "yard.patio-umbrella.webp",
+    "credit": "Acabashi · CC BY-SA 4.0 · Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Caf%C3%A9_patio_Capel_Manor_College_Gardens_Enfield_London_England_02.jpg",
+    "ref": "File:Café patio Capel Manor College Gardens Enfield London England 02.jpg"
   },
   "yard.pruning-shears": {
     "file": "yard.pruning-shears.webp",

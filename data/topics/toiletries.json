@@ -24,12 +24,12 @@
     { "en": "electric shaver", "uk": "electric razor", "ipa": "/iˌlek.trɪk ˈʃeɪ.vɚ/", "zh": "电动剃须刀", "example": "He uses an electric shaver every morning.", "wiki": "Electric razor" },
     { "en": "shaving cream", "uk": "shaving foam", "ipa": "/ˈʃeɪ.vɪŋ ˌkriːm/", "zh": "剃须膏", "example": "Spread the shaving cream on your face.", "wiki": "Shaving cream" },
     { "en": "comb", "ipa": "/koʊm/", "zh": "梳子（扁梳）", "example": "He keeps a comb in his pocket.", "wiki": "Comb" },
-    { "en": "hairbrush", "ipa": "/ˈher.brʌʃ/", "zh": "发刷；梳子", "example": "My hairbrush is full of hair.", "wiki": "Hairbrush" },
+    { "en": "hairbrush", "ipa": "/ˈher.brʌʃ/", "zh": "发刷；梳子", "example": "My hairbrush is full of hair.", "img": "Hairbrush flat.JPG" },
     { "en": "hair gel", "ipa": "/ˈher ˌdʒel/", "zh": "发胶；啫喱", "example": "He uses too much hair gel.", "wiki": "Hair gel" },
     { "en": "hair straightener", "uk": "straighteners", "ipa": "/ˈher ˌstreɪt.ən.ɚ/", "zh": "直发器；夹板", "example": "Let the hair straightener cool down.", "wiki": "Hair iron" },
     { "en": "curling iron", "uk": "curling tongs", "ipa": "/ˈkɝː.lɪŋ ˌaɪ.ɚn/", "zh": "卷发棒", "example": "Be careful, the curling iron is hot.", "wiki": "Curling iron" },
     { "en": "nail clippers", "ipa": "/ˈneɪl ˌklɪp.ɚz/", "zh": "指甲刀", "example": "Where are the nail clippers?", "wiki": "Nail clipper" },
-    { "en": "nail file", "ipa": "/ˈneɪl ˌfaɪl/", "zh": "指甲锉", "example": "Smooth the edge with a nail file.", "wiki": "Nail file" },
+    { "en": "nail file", "ipa": "/ˈneɪl ˌfaɪl/", "zh": "指甲锉", "example": "Smooth the edge with a nail file.", "img": "Nail Buffer.jpg" },
     { "en": "nail polish", "uk": "nail varnish", "ipa": "/ˈneɪl ˌpɑː.lɪʃ/", "zh": "指甲油", "example": "She painted her nails with red nail polish.", "wiki": "Nail polish" },
     { "en": "tweezers", "ipa": "/ˈtwiː.zɚz/", "zh": "镊子", "example": "Use tweezers to get the splinter out.", "wiki": "Tweezers" },
     { "en": "cotton swab", "uk": "cotton bud", "ipa": "/ˈkɑː.tən ˌswɑːb/", "zh": "棉签", "example": "Don't put cotton swabs in your ears.", "wiki": "Cotton swab" },
@@ -38,7 +38,7 @@
     { "en": "makeup", "uk": "make-up", "ipa": "/ˈmeɪk.ʌp/", "zh": "化妆品", "example": "She doesn't wear much makeup.", "wiki": "Cosmetics" },
     { "en": "lipstick", "ipa": "/ˈlɪp.stɪk/", "zh": "口红", "example": "That lipstick is a nice color.", "wiki": "Lipstick" },
     { "en": "mascara", "ipa": "/mæˈsker.ə/", "zh": "睫毛膏", "example": "Her mascara ran when she cried.", "wiki": "Mascara" },
-    { "en": "perfume", "ipa": "/pɚˈfjuːm/", "zh": "香水", "example": "What perfume are you wearing?", "wiki": "Perfume" },
+    { "en": "perfume", "ipa": "/pɚˈfjuːm/", "zh": "香水", "example": "What perfume are you wearing?", "img": "A Suma-perfume by Coty.1.jpg" },
     { "en": "tampon", "ipa": "/ˈtæm.pɑːn/", "zh": "卫生棉条", "example": "Tampons are in the bathroom cabinet.", "noimg": true },
     { "en": "pad", "uk": "sanitary towel", "ipa": "/pæd/", "zh": "卫生巾", "example": "Can you pick up some pads at the store?", "noimg": true }
   ]

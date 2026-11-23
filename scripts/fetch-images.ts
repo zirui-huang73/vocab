@@ -113,7 +113,7 @@ async function download(url: string, outFile: string): Promise<void> {
   try {
     execFileSync('cwebp', ['-quiet', '-q', '70', '-resize', '400', '0', '-metadata', 'none', tmp, '-o', outFile], { stdio: 'ignore' });
   } catch {
-    throw new Error(`cwebp could not convert ${url.split('.').pop()} image`);
+    throw new Error(`cwebp could not convert ${new URL(url).pathname.split('.').pop()} image`);
   } finally {
     rmSync(tmp, { force: true });
   }

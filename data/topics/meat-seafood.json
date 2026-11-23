@@ -33,7 +33,7 @@
     { "en": "shrimp", "uk": "prawn", "ipa": "/ʃrɪmp/", "zh": "虾", "example": "Peel and devein the shrimp.", "wiki": "Shrimp and prawn as food" },
     { "en": "crab", "ipa": "/kræb/", "zh": "螃蟹", "example": "We had crab legs at the seafood restaurant.", "wiki": "Crab meat" },
     { "en": "lobster", "ipa": "/ˈlɑːb.stɚ/", "zh": "龙虾", "example": "Lobster is expensive in this town.", "wiki": "Lobster" },
-    { "en": "clam", "ipa": "/klæm/", "zh": "蛤蜊", "example": "Clam chowder is a Boston favorite.", "wiki": "Clam" },
+    { "en": "clam", "ipa": "/klæm/", "zh": "蛤蜊", "example": "Clam chowder is a Boston favorite.", "img": "Clams muscles shellfish food.jpg" },
     { "en": "mussel", "ipa": "/ˈmʌs.əl/", "zh": "青口；贻贝", "example": "Steam the mussels in white wine.", "wiki": "Mussel" },
     { "en": "oyster", "ipa": "/ˈɔɪ.stɚ/", "zh": "生蚝；牡蛎", "example": "Have you ever eaten raw oysters?", "wiki": "Oyster" },
     { "en": "scallop", "ipa": "/ˈskæl.əp/", "zh": "扇贝；带子", "example": "Sear the scallops in a very hot pan.", "wiki": "Scallop" },

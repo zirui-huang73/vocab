@@ -17,7 +17,7 @@
     { "en": "highway", "uk": "motorway", "ipa": "/ˈhaɪ.weɪ/", "zh": "高速公路", "example": "Traffic on the highway is terrible.", "wiki": "Controlled-access highway" },
     { "en": "freeway", "ipa": "/ˈfriː.weɪ/", "zh": "高速公路（免费）", "example": "Take the freeway, it's faster.", "noimg": true },
     { "en": "on-ramp", "uk": "slip road", "ipa": "/ˈɑːn.ræmp/", "zh": "高速入口匝道", "example": "Speed up on the on-ramp.", "noimg": true },
-    { "en": "exit", "ipa": "/ˈeɡ.zɪt/", "zh": "出口", "example": "Take exit 12 for downtown.", "wiki": "Exit (highway)" },
+    { "en": "exit", "ipa": "/ˈeɡ.zɪt/", "zh": "出口", "example": "Take exit 12 for downtown.", "img": "Hiawatha Avenue (Highway 55), Minneapolis, Minnesota - Exit Sign (43108405894).jpg" },
     { "en": "toll booth", "ipa": "/ˈtoʊl ˌbuːθ/", "zh": "收费站", "example": "Have some cash ready for the toll booth.", "wiki": "Tollbooth" },
     { "en": "overpass", "uk": "flyover", "ipa": "/ˈoʊ.vɚ.pæs/", "zh": "高架桥；天桥", "example": "We drove under the overpass.", "wiki": "Overpass" },
     { "en": "roundabout", "ipa": "/ˈraʊnd.ə.baʊt/", "zh": "环岛", "example": "Take the second exit at the roundabout.", "wiki": "Roundabout" },

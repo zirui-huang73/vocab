@@ -8,10 +8,10 @@
   "words": [
     { "en": "roof", "ipa": "/ruːf/", "zh": "屋顶", "example": "The roof leaks when it rains hard.", "wiki": "Roof" },
     { "en": "shingles", "ipa": "/ˈʃɪŋ.ɡəlz/", "zh": "屋顶瓦片（沥青瓦）", "example": "The storm blew some shingles off the roof.", "wiki": "Roof shingle" },
-    { "en": "chimney", "ipa": "/ˈtʃɪm.ni/", "zh": "烟囱", "example": "Smoke is coming out of the chimney.", "wiki": "Chimney" },
+    { "en": "chimney", "ipa": "/ˈtʃɪm.ni/", "zh": "烟囱", "example": "Smoke is coming out of the chimney.", "img": "Chimney red.jpg" },
     { "en": "gutter", "ipa": "/ˈɡʌt̬.ɚ/", "zh": "檐沟；排水槽", "example": "The gutters are full of leaves.", "wiki": "Rain gutter" },
     { "en": "downspout", "uk": "drainpipe", "ipa": "/ˈdaʊn.spaʊt/", "zh": "落水管", "example": "Water runs down the downspout into the yard.", "wiki": "Downspout" },
-    { "en": "siding", "uk": "cladding", "ipa": "/ˈsaɪ.dɪŋ/", "zh": "外墙挂板", "example": "The house has white vinyl siding.", "wiki": "Siding" },
+    { "en": "siding", "uk": "cladding", "ipa": "/ˈsaɪ.dɪŋ/", "zh": "外墙挂板", "example": "The house has white vinyl siding.", "img": "Houses with vinyl siding, South Side, 2022-08-17, 01.jpg" },
     { "en": "porch", "ipa": "/pɔːrtʃ/", "zh": "门廊", "example": "The package is on the front porch.", "wiki": "Porch" },
     { "en": "deck", "ipa": "/dek/", "zh": "木平台；露台", "example": "We grill on the deck in the summer.", "wiki": "Deck (building)" },
     { "en": "patio", "ipa": "/ˈpæt̬.i.oʊ/", "zh": "石砌露台；庭院", "example": "Let's eat dinner out on the patio.", "wiki": "Patio" },

@@ -23,7 +23,7 @@
     { "en": "lug wrench", "uk": "wheel brace", "ipa": "/ˈlʌɡ ˌrentʃ/", "zh": "轮胎扳手；十字扳手", "example": "The lug wrench is in the trunk with the spare.", "wiki": "Lug wrench" },
     { "en": "dipstick", "ipa": "/ˈdɪp.stɪk/", "zh": "机油尺", "example": "Pull out the dipstick to check the oil.", "wiki": "Dipstick" },
     { "en": "motor oil", "uk": "engine oil", "ipa": "/ˈmoʊ.t̬ɚ ˌɔɪl/", "zh": "机油", "example": "The car needs a quart of motor oil.", "wiki": "Motor oil" },
-    { "en": "coolant", "uk": "antifreeze", "ipa": "/ˈkuː.lənt/", "zh": "冷却液；防冻液", "example": "The coolant is low.", "wiki": "Antifreeze" },
+    { "en": "coolant", "uk": "antifreeze", "ipa": "/ˈkuː.lənt/", "zh": "冷却液；防冻液", "example": "The coolant is low.", "noimg": true },
     { "en": "radiator", "ipa": "/ˈreɪ.di.eɪ.t̬ɚ/", "zh": "散热器；水箱", "example": "Steam is coming out of the radiator.", "wiki": "Radiator (engine cooling)" },
     { "en": "brakes", "ipa": "/breɪks/", "zh": "刹车", "example": "My brakes are squeaking.", "wiki": "Disc brake" },
     { "en": "brake pads", "ipa": "/ˈbreɪk ˌpædz/", "zh": "刹车片", "example": "You need new brake pads.", "wiki": "Brake pad" },
