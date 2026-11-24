@@ -52,6 +52,17 @@ export default function Home() {
         )}
       </section>
 
+      <p className="legend">
+        <span>
+          <i className="learned" />
+          学过
+        </span>
+        <span>
+          <i />
+          已掌握（复习间隔 ≥ 7 天）
+        </span>
+      </p>
+
       {GROUPS.map((g) => {
         const list = topics.filter((t) => t.group === g.id);
         if (!list.length) return null;
@@ -67,7 +78,7 @@ export default function Home() {
                     <span className="topic-icon">{t.icon}</span>
                     <span className="topic-zh">{t.zh}</span>
                     <span className="topic-en">{t.en}</span>
-                    <ProgressBar value={mastered} max={t.words.length} />
+                    <ProgressBar value={mastered} secondary={seen} max={t.words.length} />
                     <span className="topic-count">
                       {seen}/{t.words.length}
                     </span>

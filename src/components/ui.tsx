@@ -79,10 +79,12 @@ export function WordDetails({ word }: { word: Word }) {
   );
 }
 
-export function ProgressBar({ value, max }: { value: number; max: number }) {
+export function ProgressBar({ value, max, secondary }: { value: number; max: number; secondary?: number }) {
+  const width = (n: number) => `${max ? (n / max) * 100 : 0}%`;
   return (
     <div className="progress-bar">
-      <div style={{ width: `${max ? (value / max) * 100 : 0}%` }} />
+      {secondary !== undefined && <div className="secondary" style={{ width: width(secondary) }} />}
+      <div style={{ width: width(value) }} />
     </div>
   );
 }
