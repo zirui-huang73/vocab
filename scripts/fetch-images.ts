@@ -5,6 +5,7 @@ import { join } from 'node:path';
 
 interface RawWord {
   en: string;
+  pos?: string;
   wiki?: string;
   img?: string;
   noimg?: boolean;
@@ -129,13 +130,21 @@ async function main() {
 
   const todo: { id: string; word: RawWord }[] = [];
   const noImage: string[] = [];
+  const dropImage = (id: string) => {
+    if (images[id]) rmSync(join(OUT_DIR, images[id].file), { force: true });
+    delete images[id];
+  };
+  if (!only.size) {
+    const ids = new Set(topics.flatMap((t) => t.words.map((w) => `${t.id}.${slugify(w.en)}`)));
+    for (const id of Object.keys(images)) if (!ids.has(id)) dropImage(id);
+  }
   for (const t of topics) {
     if (only.size && !only.has(t.id)) continue;
     for (const w of t.words) {
       const id = `${t.id}.${slugify(w.en)}`;
-      if (w.noimg) {
-        if (images[id]) rmSync(join(OUT_DIR, images[id].file), { force: true });
-        delete images[id];
+      // Verbs and adjectives only get an image when one is picked explicitly.
+      if (w.noimg || (w.pos && !w.img && !w.wiki)) {
+        dropImage(id);
         noImage.push(id);
       } else if (force || !images[id] || images[id].ref !== refOf(w) || !existsSync(join(OUT_DIR, images[id].file))) {
         todo.push({ id, word: w });

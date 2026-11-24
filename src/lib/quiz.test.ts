@@ -31,6 +31,28 @@ describe('pickDistractors', () => {
     expect(d.some((x) => x.id === small[0].id)).toBe(false);
   });
 
+  it('prefers distractors with the same part of speech', () => {
+    const verbs = ['fold', 'iron', 'sweep', 'mop'].map((e) => w('home', e, { pos: 'verb' }));
+    const nouns = ['broom', 'bucket', 'sponge', 'hamper'].map((e) => w('home', e));
+    const otherVerbs = ['drive', 'park'].map((e) => w('car', e, { pos: 'verb' }));
+    for (let i = 0; i < 20; i++) {
+      const d = pickDistractors(verbs[0], [...verbs, ...nouns], [...verbs, ...nouns, ...otherVerbs], 3, Math.random);
+      expect(d.every((x) => x.pos === 'verb' && x.topicId === 'home')).toBe(true);
+    }
+    for (let i = 0; i < 20; i++) {
+      const d = pickDistractors(nouns[0], [...verbs, ...nouns], [...verbs, ...nouns], 3, Math.random);
+      expect(d.every((x) => x.pos === undefined)).toBe(true);
+    }
+  });
+
+  it('uses same-pos words from other topics before mixing parts of speech', () => {
+    const verbs = ['fold', 'iron'].map((e) => w('home', e, { pos: 'verb' }));
+    const nouns = ['broom', 'bucket', 'sponge'].map((e) => w('home', e));
+    const otherVerbs = ['drive', 'park'].map((e) => w('car', e, { pos: 'verb' }));
+    const d = pickDistractors(verbs[0], [...verbs, ...nouns], [...verbs, ...nouns, ...otherVerbs], 3, Math.random);
+    expect(d.map((x) => x.en).sort()).toEqual(['drive', 'iron', 'park']);
+  });
+
   it('skips words that look identical to the answer', () => {
     const dupes = [w('a', 'sofa', { zh: '沙发' }), w('a', 'couch', { zh: '沙发' }), w('a', 'chair'), w('a', 'desk'), w('a', 'lamp')];
     for (let i = 0; i < 20; i++) {

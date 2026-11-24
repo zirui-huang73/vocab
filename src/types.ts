@@ -1,8 +1,11 @@
+export type PartOfSpeech = 'verb' | 'adj';
+
 export interface Word {
   id: string;
   topicId: string;
   en: string;
   uk?: string;
+  pos?: PartOfSpeech;
   ipa: string;
   zh: string;
   example: string;

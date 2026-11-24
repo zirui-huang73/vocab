@@ -1,5 +1,6 @@
 import type { ReactNode } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
+import { POS_LABEL } from '../data';
 import { speak, speechSupported } from '../lib/speech';
 import type { Word } from '../types';
 
@@ -67,7 +68,8 @@ export function WordDetails({ word }: { word: Word }) {
       </div>
       <div className="ipa">
         {word.ipa}
-        {word.uk && <span className="uk">UK: {word.uk}</span>}
+        {word.pos && <span className="tag">{POS_LABEL[word.pos]}</span>}
+        {word.uk && <span className="tag">UK: {word.uk}</span>}
       </div>
       <div className="zh">{word.zh}</div>
       <p className="example" onClick={() => speak(word.example)}>

@@ -34,8 +34,11 @@ export function pickDistractors(word: Word, sameTopic: Word[], all: Word[], n: n
       if (!confusable(c, word) && !picked.some((p) => confusable(p, c))) picked.push(c);
     }
   };
-  consider(sameTopic);
-  if (picked.length < n) consider(all.filter((x) => x.topicId !== word.topicId));
+  const samePos = (x: Word) => x.pos === word.pos;
+  const others = all.filter((x) => x.topicId !== word.topicId);
+  for (const pool of [sameTopic.filter(samePos), others.filter(samePos), sameTopic, others]) {
+    if (picked.length < n) consider(pool);
+  }
   return picked;
 }
 

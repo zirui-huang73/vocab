@@ -1,9 +1,12 @@
-import type { Topic, Word } from './types';
+import type { PartOfSpeech, Topic, Word } from './types';
 import images from '../data/images.json';
+
+export const POS_LABEL: Record<PartOfSpeech, string> = { verb: '动词', adj: '形容词' };
 
 export interface RawWord {
   en: string;
   uk?: string;
+  pos?: PartOfSpeech;
   ipa: string;
   zh: string;
   example: string;
@@ -60,6 +63,7 @@ export const topics: Topic[] = Object.values(rawTopics)
         topicId: t.id,
         en: w.en,
         uk: w.uk,
+        pos: w.pos,
         ipa: w.ipa,
         zh: w.zh,
         example: w.example,

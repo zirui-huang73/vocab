@@ -17,7 +17,10 @@ describe('topic data', () => {
       expect(w.zh, label).toBeTruthy();
       expect(w.ipa, label).toMatch(/^\/.+\/$/);
       expect(w.example, label).toMatch(/[.?!]$/);
-      const stem = w.en.toLowerCase().slice(0, Math.max(3, w.en.length - 2));
+      expect([undefined, 'verb', 'adj'], label).toContain(w.pos);
+      // Verbs get conjugated in examples, so only the longest word of the phrase has to appear.
+      const key = w.pos === 'verb' ? w.en.split(/\s+/).reduce((a, b) => (b.length > a.length ? b : a)) : w.en;
+      const stem = key.toLowerCase().slice(0, Math.max(3, key.length - 2));
       expect(w.example.toLowerCase(), label).toContain(stem);
     }
   });
